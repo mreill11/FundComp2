@@ -17,7 +17,6 @@ class Mortgage {
 		void amortize();
 
 	private:
-		void printHeader();
 		double principal;
 		double rate;
 		double payment;

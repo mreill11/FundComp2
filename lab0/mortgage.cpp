@@ -17,7 +17,7 @@ Mortgage::Mortgage (double inputPrincipal, double inputRate, double inputPayment
 	rate = inputRate;
 	payment = inputPayment;
 
-	//check args
+	//check args, adjusts values if there is an error
 	while (principal <= 0) {
 		cout << "Please enter a rate >= $0: ";
 		cin >> principal;
@@ -43,17 +43,23 @@ Mortgage::Mortgage (double inputPrincipal, double inputRate, double inputPayment
 	}
 }
 
+//credit method credits users mortgage the specified amount
 void Mortgage::credit (double payment) {
 	principal -= payment;
 }
 
+//simply returns principal
 double Mortgage::getPrincipal() {
 	return principal;
 }
 
+//The main method, handles the amortization
 void Mortgage::amortize() {
 	month = 1;
-	printHeader();
+	cout << endl;
+	cout << left << setw(7) << "Month" << setw(11) << "Payment" <<
+		setw(11) << "Interest" << setw(8) << "Balance" << endl;
+	//same process as FC1 amortization
 	while (principal > .001) {
 		interest = principal * rate;
 		principal += interest;
@@ -63,12 +69,6 @@ void Mortgage::amortize() {
 		cout << left << setw(7) << fixed << setprecision(2) << month <<
 			setw(11) << payment << setw(11) << interest <<
 			setw(8) << principal << endl;
-		month++
+		month++;
 	}
-}
-
-void Mortgage::printHeader() {
-	cout << endl;
-	cout << left << setw(7) << "Month" << setw(11) << "Payment" <<
-		setw(11) << "Interest" << setw(8) << "Balance" << endl;
 }
