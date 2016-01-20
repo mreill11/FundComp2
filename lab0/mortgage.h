@@ -11,7 +11,7 @@
 class Mortgage {
 
 	public:
-		Mortgage(double = 150000, double = 4.0, double = 600);
+		Mortgage(double = 300000, double = 3.0, double = 800);
 		void credit(double);
 		double getPrincipal();
 		void amortize();
