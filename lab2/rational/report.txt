@@ -1,0 +1,25 @@
+Matt Reilly
+
+This program is pretty simple for the user. They only interact with the main.cpp program. Main prompts them for two rationals, initial velocity and time.
+It then uses these rationals, along with acceleration (9.8 m/s), to calculate final velocity. It does this by passing rational objects to Rational.cpp
+and using operator overloading to work with them. It then displays their final velocity.
+Main.cpp also displays some sample calculations with rationals to show the user how the operators work.
+
+Programmatically, this assignment isn't too complicated. Rational.cpp contains:
+	1 constructor
+	1 copy constructor
+	An operator overload for << that prints rationals as a fraction
+	An operator overload for + that handles addition of rationals
+	An operator overload for - that handles subtraction of rationals
+	An operator overlaod for * that handles multiplication of rationals
+	An operator overload for / that handles division of rationals
+	An operator overload for > that handles greater than comparison of rationals
+	An operator overload for < that handles less than comparison for rationals
+	A reduce() function that uses gcd() to reduce rationals
+	A lcm() function that finds the least common multiple between two numbers
+	A gcd() function that finds the greatest common denominator between two numbers
+
+These above components are all used to complete the calculations described above in main.cpp.
+The code for the operator overloaders is all relatively simple, it's all simple fraction math.
+
+I verified my results by testing 5 benchmark values with both my program and a calculator, making sure they were the same. 
