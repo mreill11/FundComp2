@@ -1,0 +1,15 @@
+"Next Step" Rubric
+David Durkin, Matt Reilly, Chris Beaufils
+
+Finish text based implementation of battleship (harder than expected) - 10
+Compile various images and plan the general theme of the program - 10
+Add graphics - 20
+
+	The text based implementation proved slightly harder than expected 
+and due to our focus on creating each of our own deliverables for lab 8, we
+will move the completion of this step from lab 8 to the next step. We were
+however able to use the SDL tutorials to get a decent handle on graphics,
+and we are confident that we will soon be able to start adding graphics to
+our program.
+
+

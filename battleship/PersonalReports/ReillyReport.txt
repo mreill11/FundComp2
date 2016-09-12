@@ -1,0 +1,15 @@
+    For this project, our group worked very well together. We all brought our own skills to the table and
+contributed solid work. One of my main projects was working on the AI, but I ended up creating an AI
+that never lost. This was obviously unacceptable, so Chris worked on making it a more feasible opponent.
+My original AI was too smart, it had access to the user board. A proper AI should only have access to what
+it has already learned. Once we realized this, Chris and I finished a proper AI. One of my other main
+roles in the group was working with the graphics. I created the sprite sheet we used to make the board using
+GIMP. It was relatively simple, but getting it exactly the right size took some time. Once we had the sprite
+sheet done, Chris and I worked through the SDL tutorials on Lazy Foo and began constructing the board. At
+first, we were able to get the program to display a square in each corner of the screen. After a good amount
+of trial and error, we finally had a 10 by 10 board. Chris then got the program to display both the user
+and computer boards. The next problem we had to fix was making the squares continually render the proper
+color. We did this by tracking both board vectors at render and coloring the squares accordingly. Overall,
+our group worked very well together. We all contributed different things, as well as worked together to make
+it all fit into place. This project, although tough at times, was very emnjoyable. It was rewarding to be
+able to play our game once it was all finished.

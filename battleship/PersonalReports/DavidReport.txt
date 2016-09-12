@@ -1,0 +1,22 @@
+David Durkin
+Personal Report
+4/27/16
+
+     I felt that during the duration of this project, the group dynamic was
+solid, and each member of our group made important contributions which facilitated
+our success. My own personal contributions included general planning and
+organization, contributing to building and testing the AI, implementing
+inheritance, implementing graphics, and compiling/creating/editing all of the
+images that we used. I initially helped with planning the basic structure of the 
+program, and outlining the different classes and how they would communicate with
+each other. I came up with the basic idea of how the program would be structured,
+with vectors to keep track of each players board, ship objects to keep track of the
+ships, and a graphical interface that is constantly updated based on these arrays 
+and classes. Then, when it came to building the basic functionality of the program, I
+assisted by creating various functions for the battleshipGame class, as well as 
+joined together with Matt and Chris to create and test all aspects of the AI. Once we
+had most of the basic AI and gameplay functionality completed, our entire group 
+worked together for multiple days in order to implement the graphics. In the end, we
+were all able to make essential contributions to the project, and I felt that each
+of our group members pulled their own weight well. I enjoyed working on this project,
+and I am very proud of the Battleship program that we created.
